@@ -1,52 +1,74 @@
-# JobPilot React
+# 💼 JobPilot - Frontend + Backend/DataBase
 
-JobPilot converted into a component-based React + Vite project while preserving the existing demo functionality.
+**JobPilot** is a React-based frontend for a **Job & Services Marketplace Platform** where users can find jobs, service providers and manage their applications and bookings.
 
-## Structure
+## ✨ Features
 
-src/
-- App.jsx
-- main.jsx
-- index.css
-- components/
-  - Navbar.jsx
-  - JobCard.jsx
-  - ProviderCard.jsx
-  - Modal.jsx
-  - Sidebar.jsx
-- pages/
-  - JobsPage.jsx
-  - ProvidersPage.jsx
-  - DashboardPage.jsx
-  - ApplicationsPage.jsx
-  - BookingPage.jsx
-  - FavoritesPage.jsx
-  - NotificationsPage.jsx
-  - ChatPage.jsx
+- 💼 Browse and search jobs
+- 👨‍💻 Find service providers
+- 📝 Apply for jobs
+- 📅 Manage bookings
+- 📊 Dashboard
+- ❤️ Favorite jobs/providers
+- 🔔 Notifications
+- 💬 Chat functionality
+- 🔐 Login & Registration
+- 📱 Responsive UI
 
-## Install and run
+## 🛠️ Technologies
+
+- ⚛️ React.js
+- ⚡ Vite
+- 🟨 JavaScript
+- 🎨 CSS
+- 🌐 REST API
+- 🔥 React Hot Toast
+
+## 📄 Main Pages
+
+- 🏠 Dashboard
+- 💼 Jobs
+- 👨‍💻 Providers
+- 📝 Applications
+- 📅 Bookings
+- ❤️ Favorites
+- 🔔 Notifications
+- 💬 Chat
+
+## 🔗 Backend
+
+This frontend is connected with the **JobPilot Backend API**.
+
+Backend Repository:
+
+https://github.com/Karans2005/Job_Backend
+
+## 🚀 Run Locally
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Karans2005/JobPilot-React.git
+```
+
+### Install Dependencies
 
 ```bash
 npm install
+```
+
+### Start Development Server
+
+```bash
 npm run dev
 ```
 
-## Build
+## 👨‍💻 Author
 
-```bash
-npm run build
-```
+**Harsh Kumar Sahu**
 
-## npm setup
+MERN Stack Developer 🚀
 
-Runtime dependencies:
-- react
-- react-dom
+---
 
-Development dependencies:
-- vite
-- @vitejs/plugin-react
-
-No React Router, Axios, or Firebase npm package is required for the current version. Firebase compat scripts remain optional in index.html because the existing app uses the browser Firebase compat API only when a Firebase config is supplied.
-
-The app currently uses tab-based navigation, so React Router is not required.
+⭐ If you like this project, feel free to give it a star!
